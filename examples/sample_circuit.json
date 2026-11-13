@@ -1,0 +1,15 @@
+{
+  "n_qubits": 3,
+  "gates": [
+    {"name": "H", "wires": [0]},
+    {"name": "H", "wires": [0]},
+    {"name": "RZ", "wires": [1], "theta": 0.2},
+    {"name": "X", "wires": [2]},
+    {"name": "RZ", "wires": [1], "theta": 0.3},
+    {"name": "X", "wires": [2]},
+    {"name": "CNOT", "wires": [0, 1]},
+    {"name": "CNOT", "wires": [0, 1]},
+    {"name": "H", "wires": [0]},
+    {"name": "CNOT", "wires": [0, 1]}
+  ]
+}
